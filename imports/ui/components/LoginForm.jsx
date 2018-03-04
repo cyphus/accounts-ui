@@ -1022,8 +1022,6 @@ LoginForm.defaultProps = {
   changePasswordPath: null,
 };
 
-Accounts.ui.LoginForm = LoginForm;
-
 const LoginFormContainer = withTracker(() => {
   // Listen for the user to login/logout and the services list to the user.
   Meteor.subscribe('servicesList');
